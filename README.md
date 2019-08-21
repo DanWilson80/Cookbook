@@ -1,5 +1,5 @@
 ###### Cookbook
-## Cookbook of todo lists, programming language goals, snippets, templates and a place to store any other miscellaneous data that may be useful in my coding journey. Hopefully over time this will become a decent knowledge base that may possibly be useful to other people.
+Cookbook of todo lists, programming language goals, snippets, templates and a place to store any other miscellaneous data that may be useful in my coding journey. Hopefully over time this will become a decent knowledge base that may possibly be useful to other people.
 
 ### The Cookbook Method
 A cookbook in the programming context is collection of tiny programs that each demonstrate a particular programming concept. The Cookbook Method is the process of learning a programming language by building up a repository of small programs that implement specific programming concepts. Starting with a Hello World program and building the knowledge piece by piece on top of that.
