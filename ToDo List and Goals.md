@@ -2,6 +2,7 @@ ToDo List Ideas - will be added to as I find more ideas or come up with my own
 ======
   * [ ] Create Portfolio - using 6 - 10 of these ideas or others.
   * [ ] Hello, world
+  * [ ] Discord Chat Bot - Notion
   * [ ] Landing Page
   * [ ] Design a contact form complete with validation, error messages, and confirmation message.
   * [ ] Same as above, but for a login/signup form?
