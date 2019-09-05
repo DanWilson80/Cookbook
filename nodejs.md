@@ -3,15 +3,14 @@ NODEJS Installation and Use - Locally and Using GoormIDE
 Including Use with MongoDB both Locally and Using MongoDB Atlas
 ------
 
-### Index
-[NodeJS](#NodeJS)  
-[MongoDB](#MongoDB)  
-[To Be Finished](#TBF)  
+### Index  
   
-### Complete Guide to setting up NodeJS and MongoDB Locally is located [here](https://zarkom.net/blogs/linux-ubuntu-local-coding-environment-1528) 
+  
+  
+### Complete Guide to setting up NodeJS and MongoDB Locally is located [here](https://zarkom.net/blogs/linux-ubuntu-local-coding-environment-1528)  
   
 NodeJS
-------
+------  
 
 * Install NodeJS by following instructions at https://github.com/nodesource/distributions/blob/master/README.md#debinstall
 
@@ -40,19 +39,14 @@ const express =    require("express"),
 ```
 There is no need to use `const` for each variable when using a `,` instead of a `;` at the end of each line. The `"require"` part of each line can also be lined up for the purposes of easier to read code although this is a matter of preference.  
 
-[Index](#Index)
-
 ### TBF  
 **_To Be Finished_**  
 
 *There is more information stored within the readme.md file within my projects on GoormIDE that I need to transcribe over which will be useful to have in one place*  
 
-[Index](#Index)  
-
 GoormIDE
 ------
-### _TBF - To Be Finished_
-
+### _TBF - To Be Finished_  
 MongoDB
 ------
 
@@ -82,5 +76,22 @@ mongoose.connect(process.env.MONGOLAB_URI, {
 ```
 the `process.env.MONGOLAB_URI` references to the `.env` file containing the login details for the Atlas Container. To enable the use of `.env` the `dotenv module` must be installed and `dotenv.config();` must be called below the installed module variables (which must include `const dotenv = require(dotenv)` of course) this allows the connection string for Atlas to be replaced with the variable named within the `.env` file.  
 
-[Index](#Index)
+
+**To install `MongoDB` locally use the following commands**
+   1. `killall mongod`
+   2. `sudo apt-get purge -y mongodb-org*`
+   3. `sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 2930ADAE8CAF5059EE73BB4B58712A2291FA4AD5`
+   4. `echo "deb [ arch=amd64 ] https://repo.mongodb.org/apt/ubuntu trusty/mongodb-org/3.6 multiverse" | sudo tee     /etc/apt/sources.list.d/mongodb-org-3.6.list`
+   5. `sudo apt-get update`
+   6. `sudo apt-get install -y mongodb-org`
+   7. `rm -rf mongod`
+   8. `echo "mongod --dbpath=data --nojournal" > mongod`
+   9. `chmod a+x mongod`
+   10. `rm -rf data`
+   11. `mkdir data`
+   12. `./mongod`  (to run the Daemon)
+   13. Open a new terminal tab
+   14. `mongo` to run the DB
+
+ 
 
