@@ -5,6 +5,11 @@ Including Use with MongoDB both Locally and Using MongoDB Atlas
 
 ### Index  
   
+[NodeJS](#NodeJS)  
+[To be Finished](#TBF)  
+[GoormIDE](#GoormIDE)  
+[MongoDB_on GoormIDE](#MongoDB_GoormIDE)  
+[MongoDB_Locally](#MongoDB_Locally)  
   
   
 ### Complete Guide to setting up NodeJS and MongoDB Locally is located [here](https://zarkom.net/blogs/linux-ubuntu-local-coding-environment-1528)  
@@ -43,11 +48,16 @@ There is no need to use `const` for each variable when using a `,` instead of a 
 **_To Be Finished_**  
 
 *There is more information stored within the readme.md file within my projects on GoormIDE that I need to transcribe over which will be useful to have in one place*  
-
+  
+[Index](#Index)  
+  
 GoormIDE
 ------
 ### _TBF - To Be Finished_  
-MongoDB
+  
+[Index](#Index)  
+  
+MongoDB_GoormIDE  
 ------
 
 * When connecting to `MongoDB` the following code is what I used while operating within GoormIDE with MongoDB installed within the IDE:
@@ -75,8 +85,12 @@ mongoose.connect(process.env.MONGOLAB_URI, {
 });
 ```
 the `process.env.MONGOLAB_URI` references to the `.env` file containing the login details for the Atlas Container. To enable the use of `.env` the `dotenv module` must be installed and `dotenv.config();` must be called below the installed module variables (which must include `const dotenv = require(dotenv)` of course) this allows the connection string for Atlas to be replaced with the variable named within the `.env` file.  
-
-
+  
+[Index](#Index)    
+  
+MongoDB_Locally  
+------  
+  
 **To install `MongoDB` locally use the following commands**
    1. `killall mongod`
    2. `sudo apt-get purge -y mongodb-org*`
@@ -92,6 +106,6 @@ the `process.env.MONGOLAB_URI` references to the `.env` file containing the logi
    12. `./mongod`  (to run the Daemon)
    13. Open a new terminal tab
    14. `mongo` to run the DB
-
- 
+  
+[Index](#Index)
 
