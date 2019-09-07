@@ -55,7 +55,24 @@ There is no need to use `const` for each variable when using a `,` instead of a 
   
 GoormIDE
 ------
-### _TBF - To Be Finished_  
+### _TBF - To Be Finished_ 
+
+### How to configure Server in GoormIDE for use with NodeJS  
+
+1. Go to your GoormIDE and `Project/Running URL and Port` this will bring up a window. Enter any name for your `URL` for the server you are creating then enter `3000` as the `Port Number` and click `Register`  
+2. Add this code to the bottom of your `app.js` file to enable the server:
+```
+app.listen(3000, () => {
+	console.log("Server listening on Port 3000");
+});
+```
+3. Locate your `HTML File` and open it into the editor then back to `Project => Running URL and Port` then click on the link for the Server that you created and it will open up the `HTML File` in your browser.  
+
+### How to Preview HMTL files in GoormIDE  
+
+1. Go to your GoormIDE and `Project/Running URL and Port` this will bring up a window. Enter any name for your `URL` for the server you are creating then enter `8000` as the `Port Number` and click `Register`  
+2. At the command line type `python -m SimpleHTTPServer` and you should get a message stating `Serving HTTP 0.0.0.0 Port 8000...`  
+3. Locate your `HTML File` and open it into the editor then back to `Project => Running URL and Port` then click on the link for the Server that you created and it will open up the `HTML File` in your browser.
   
 [Index](#Index)  
   
