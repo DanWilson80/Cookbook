@@ -96,7 +96,7 @@ Your steps will be slightly easier if you use the GNOME desktop, since it integr
 ### Emoji Input: Mouse
 * If you’d prefer to select your emojis by mouse, there’s an easy solution called Emoji Keyboard. It resides in your system tray as a panel you can show and hide, which provides you with a way to copy or insert the emoji of your choice.  
 
-* Getting it is quite easy if you’re using a Debian-based Linux operating system. All you need to do is head to the program’s Github page and install the provided DEB file. This should be as easy as double clicking it. Any required programs should be installed along with it, no other steps required. If this is not the case, you may have to run these commands below first, which should fix these problems:  
+* Getting it is quite easy if you’re using a Debian-based Linux operating system. All you need to do is head to the program’s [Github page](https://github.com/OzymandiasTheGreat/emoji-keyboard/releases) and install the provided DEB file. This should be as easy as double clicking it. Any required programs should be installed along with it, no other steps required. If this is not the case, you may have to run these commands below first, which should fix these problems:  
   
 ```
 sudo add-apt-repository universe && sudo apt update
