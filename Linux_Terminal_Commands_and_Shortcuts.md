@@ -43,7 +43,7 @@ export - Export/Set a new environment variable
 exit - Exit the shell  
 sudo - Super user  
   
-#### Index  
+#### [Index](#Index)  
 
 Shortcuts
 ------  
@@ -65,4 +65,4 @@ Show all Apps - `Super + A`
 Switch System Controls - `Ctrl + Alt + Tab`
   
   
-#### Index  
+#### [Index](#Index)  
