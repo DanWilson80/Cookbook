@@ -20,6 +20,18 @@ To properly reference a filename with spaces in it's name use the following form
 `> foo my\ file\ with\ spaces\ in\ the\ name`  
 **OR**  
 enclose the text in `""` like this `"Spaced Out Filename"`  
+
+Can also use:  
+  
+```
+sudo apt-get install mpg123
+```
+Then to convert mp3 to wav (using -w option)
+```
+mpg123 -w output.wav input.mp3
+```  
+  
+
   
 
   
