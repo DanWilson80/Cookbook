@@ -4,9 +4,10 @@ Linux Terminal Commands
 This will be a comprehensive list for Linux Terminal Commands
 ------
   
-### INDEX  
-#### [Commands](#Commands)  
-#### [Shortcuts](#Shortcuts)  
+INDEX  
+------  
+[Commands](#Commands)  
+[Shortcuts](#Shortcuts)  
   
 Commands  
 ------  
