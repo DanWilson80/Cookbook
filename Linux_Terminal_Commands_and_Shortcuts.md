@@ -4,9 +4,9 @@ Linux Terminal Commands
 This will be a comprehensive list for Linux Terminal Commands
 ------
   
-###INDEX  
-[Commands](#Commands)  
-[Shortcuts](#Shortcuts)  
+### INDEX  
+#### [Commands](#Commands)  
+#### [Shortcuts](#Shortcuts)  
   
 Commands  
 ------  
@@ -43,7 +43,8 @@ export - Export/Set a new environment variable
 exit - Exit the shell  
 sudo - Super user  
   
-  
+#### Index  
+
 Shortcuts
 ------  
 Hide all normal Windows - `Ctrl + Super + D`  
@@ -62,6 +63,6 @@ Open Application Menu - `Super + F10`
 Show all Apps - `Super + A`  
 
 Switch System Controls - `Ctrl + Alt + Tab`
-
-
-
+  
+  
+#### Index  
