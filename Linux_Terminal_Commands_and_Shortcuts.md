@@ -49,13 +49,13 @@ sudo - Super user
 Shortcuts
 ------  
 Hide all normal Windows - `Ctrl + Super + D`  
-Change to a different Workspace - `Super(Windows) key + PgUp or PgDn`
-Switch to Workspace 1 - `Shift + Super + Home`
-Switch to Last Workspace `Shift + Super + End`
-Switch current Window between Workspaces - `Alt + Ctrl + Delete + Down Arrow or Up Arrow`
-Switch current Window between Workspaces - `Shift + Super + Down Arrow or Up Arrow`
-Move Window to Last Workspace - `Shift + Super + PgDn`
-Move Window to First Workspace - `Shift + Super + PgUp`  
+Change to a different Workspace - `Super(Windows) key + PgUp or PgDn`  
+Switch to Workspace 1 - `Shift + Super + Home`  
+Switch to Last Workspace `Shift + Super + End`  
+Switch current Window between Workspaces - `Alt + Ctrl + Delete + Down Arrow or Up Arrow`  
+Switch current Window between Workspaces - `Shift + Super + Down Arrow or Up Arrow`  
+Move Window to Last Workspace - `Shift + Super + PgDn`  
+Move Window to First Workspace - `Shift + Super + PgUp`   
 Switch Apps - `Super + Tab`  
 Switch Windows Directly - `Alt + Esc`  
 Switch Windows of an App Directly - `Alt + F6`  
@@ -63,7 +63,7 @@ Switch Windows of an App Directly - `Alt + F6`
 Open Application Menu - `Super + F10`  
 Show all Apps - `Super + A`  
 
-Switch System Controls - `Ctrl + Alt + Tab`
+Switch System Controls - `Ctrl + Alt + Tab`  
   
   
 #### [Index](#Index)  
