@@ -82,7 +82,7 @@ sudo apt install python-levenshtein
   
 * The first line is only needed if the second line doesn’t work. That is to say, if APT can’t find the package you’re looking for.  
   
-###Setting Up  
+### Setting Up  
 * Once you’ve done this, you’ll need to do some extra setup to make things work properly. After installing a language, IBus needs to add it as an active input method. In this case, you’ll need to add UniEmoji first.
 
 Your steps will be slightly easier if you use the GNOME desktop, since it integrates IBus in its system. If you followed the instructions above, all you need to do is open up your system settings, and navigate to the relevant place. Do this by entering in the command below:  
