@@ -15,8 +15,17 @@ Index
     9. [.forEach()](#forEach)  
     10. [.includes()](#includes)  
     11. [Object.values() Object.keys() Object.entries()](#Object)  
-[JS Operators](#Operators)
-    1. [Arithmetic Operators](#Arithmetic_Operators)
+[JS Operators](#Operators)  
+    1. [Arithmetic Operators](#Arithmetic_Operators)  
+    2. [Assignment Operators](#Assignment_Operators)  
+    3. [String Operators](#String_Operators)  
+    4. [Comparison Operators](#Comparison_Operators)  
+    5. [Conditional Operator(Ternary)](#Conditional_Operator(Ternary))  
+    6. [Logical Operators](#Logical_Operators)  
+    7. [The Delete Operator](#THe_Delete_Operator)    
+    8. [The Instance Of Operator](#The_Instance_Of_Operator)  
+    9. [The Type Of Operator](#The_Type_Of_Operator)
+    
   
   
 Useful_Array_Functions_and_How_They_Work
@@ -506,5 +515,34 @@ console.log(Object.entries(myEntry)); // will log the entries [["0","a"]["1","b"
   
 Operators
 ------
-#### Arithmetic_Operators
+#### Arithmetic_Operators  
+y = 5
+|Symbol| Operation          | Formula |  Y  |   X   |Explanation|
+|:----:|:------------------:|:-------:|:---:|:-----:|:---------:|
+| +    | Addition           | x=y+2   | y=5 |  x=7  |           |
+| -    |Subtraction         | x=y-2   | y=5 |  x=3  |           |
+| *    |Multiplication      | x=y*2   | y=5 | x=10  |           |
+| /    |Division            | x=y/2   | y=5 | x=2.5 |           |
+| %    |Modulus             | x=y%2   | y=5 | x=1   |5/2=2 with |
+|      |(Division Remainder)|         |     |       |1 remainder|
+| ++   | Increment          | x=++y   | y=6 | x=6   |           |
+|      |                    | x=y++   | y=6 | x=5   |           |
+| --   | Decrement          | x=--y   | y=4 | x=4   |           |
+|      |                    | x=y--   | y=4 | x=5   |           |
+  
 
+#### Assignment_Operators  
+
+#### String_Operators  
+
+#### Comparison_Operators  
+
+#### Conditional_Operator(Ternary)  
+
+#### Logical_Operators  
+
+#### The_Delete_Operator  
+
+#### The_Instance_Of_Operator  
+
+#### The_Type_of_Operator  
