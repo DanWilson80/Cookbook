@@ -4,17 +4,17 @@ Javascript Information
 Index
 ------
 [Useful_Array_Functions](#Useful_Array_Functions_and_How_They_Work)  
-    1. [.filter()](#.filter())  
-    2. [.map()](#.map())  
-    3. [.sort()](#.sort())  
-    4. [.reduce()](#.reduce())  
-    5. [.some()](#.some())  
-    6. [.every()](#.every())  
-    7. [.find()](#.find())  
-    8. [.findIndex()](#.findIndex())  
-    9. [.forEach()](#.forEach())  
-    10. [.includes()](#.includes())  
-    11. [Object.values()_Object.keys()_Object.entries()](#Object.values()_Object.keys()_Object.entries())  
+    1. [.filter()](#filter)  
+    2. [.map()](#map)  
+    3. [.sort()](#sort)  
+    4. [.reduce()](#reduce)  
+    5. [.some()](#some)  
+    6. [.every()](#every)  
+    7. [.find()](#find)  
+    8. [.findIndex()](#findIndex)  
+    9. [.forEach()](#forEach)  
+    10. [.includes()](#includes)  
+    11. [Object.values()_Object.keys()_Object.entries()](#Object)  
   
   
   
@@ -43,8 +43,9 @@ const people = ['Beck, Glenn', 'Becker, Carl', 'Beckett, Samuel', 'Beddoes, Mick
 [Index](#Index)
   
 
-.filter()
+filter
 ------
+**.filter()**
 **Array.prototype.filter()**  
     1. Filter the list of inventors for those who were born in the 1500's  
 ```
@@ -89,8 +90,9 @@ const filteredItems = items.filter(item => {
   
 [Index](#Index)
   
-.map()
-------
+ map
+ ------
+**.map()**
 **Array.prototype.map()**  
     2. Give us an array of the inventors' first and last names  
 ```
@@ -131,6 +133,8 @@ const itemPrices = items.map(item => {
   
 [Index](#Index)
   
+ sort
+ ------
 **.sort()**    
 **Array.prototype.sort()**  
     3. Sort the inventors by birthdate, oldest to youngest  
