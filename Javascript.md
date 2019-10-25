@@ -521,18 +521,18 @@ Operators
 y = 5  
   
   
-|Symbol| Operation          | Formula |  Y  |   X   |Explanation|
-|:----:|:------------------:|:-------:|:---:|:-----:|:---------:|
-| +    | Addition           | x=y+2   | y=5 |  x=7  |           |
-| -    |Subtraction         | x=y-2   | y=5 |  x=3  |           |
-| *    |Multiplication      | x=y*2   | y=5 | x=10  |           |
-| /    |Division            | x=y/2   | y=5 | x=2.5 |           |
-| %    |Modulus             | x=y%2   | y=5 | x=1   |5/2=2 with |
-|      |(Division Remainder)|         |     |       |1 remainder|
-| ++   | Increment          | x=++y   | y=6 | x=6   |           |
-|      |                    | x=y++   | y=6 | x=5   |           |
-| --   | Decrement          | x=--y   | y=4 | x=4   |           |
-|      |                    | x=y--   | y=4 | x=5   |           |
+|Symbol| Operation          | Formula     |  Y    |   X     |Explanation  |
+|:----:|:------------------:|:-----------:|:-----:|:-------:|:-----------:|
+| +    | Addition           | x = y + 2   | y = 5 |  x = 7  |             |
+| -    |Subtraction         | x = y - 2   | y = 5 |  x = 3  |             |
+| *    |Multiplication      | x = y * 2   | y = 5 | x = 10  |             |
+| /    |Division            | x = y / 2   | y = 5 | x = 2.5 |             |
+| %    |Modulus             | x = y % 2   | y = 5 | x = 1   |5/2 = 2 with |
+|      |(Division Remainder)|             |       |         |1 remainder  |
+| ++   | Increment          | x = ++ y    | y = 6 | x = 6   |             |
+|      |                    | x = y ++    | y = 6 | x = 5   |             |
+| --   | Decrement          | x = -- y    | y = 4 | x = 4   |             |
+|      |                    | x = y --    | y = 4 | x = 5   |             |
   
 
 #### Assignment_Operators  
