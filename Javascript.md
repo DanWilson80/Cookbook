@@ -1,7 +1,8 @@
 Javascript Information
 ======  
   
-Index  
+Index
+------
 [Useful_Array_Functions](#Useful_Array_Functions_and_How_They_Work)  
     1. [.filter()](#filter)  
     2. [.map()](#map)  
@@ -41,7 +42,9 @@ const people = ['Beck, Glenn', 'Becker, Carl', 'Beckett, Samuel', 'Beddoes, Mick
   
 [Index](#Index)
   
-**.filter()**  
+
+.filter()
+------
 **Array.prototype.filter()**  
     1. Filter the list of inventors for those who were born in the 1500's  
 ```
@@ -86,7 +89,8 @@ const filteredItems = items.filter(item => {
   
 [Index](#Index)
   
-**.map()**    
+.map()
+------
 **Array.prototype.map()**  
     2. Give us an array of the inventors' first and last names  
 ```
