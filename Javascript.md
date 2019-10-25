@@ -45,7 +45,7 @@ const people = ['Beck, Glenn', 'Becker, Carl', 'Beckett, Samuel', 'Beddoes, Mick
 
 filter
 ------
-**.filter()**
+**.filter()**  
 **Array.prototype.filter()**  
     1. Filter the list of inventors for those who were born in the 1500's  
 ```
@@ -92,7 +92,7 @@ const filteredItems = items.filter(item => {
   
  map
  ------
-**.map()**
+**.map()**  
 **Array.prototype.map()**  
     2. Give us an array of the inventors' first and last names  
 ```
@@ -190,7 +190,7 @@ console.log(alpha)
   
 reduce
 ------
-**.reduce()**
+**.reduce()**  
 **Array.prototype.reduce()**  
     6. How many years did all the inventors live?  
 ```
@@ -284,9 +284,9 @@ const de = links
   
 [Index](#Index)
   
-some
+some  
 ------
-**Some and Every Checks**
+**Some and Every Checks**  
 **.some()**  
 **Array.prototype.some()**  
     9.Is at least one person 19 or older?  
@@ -328,7 +328,7 @@ console.log(inexpensiveItems) // would return true as there is at least one item
   
 [Index](#Index)
   
-every
+every  
 ------
 **.every()**  
 **Array.prototype.every()**   
@@ -357,10 +357,10 @@ console.log(allOfAge)
   
 [Index](#Index)
   
-find
+find  
 ------
 **.find()**  
-**Array.prototype.find()**
+**Array.prototype.find()**  
     11. Find is like filter, but instead returns just the one you are looking for. Find the comment with the ID of 823423  
 ```
 const findId = comments.find(comment => {
@@ -388,10 +388,10 @@ console.log(foundItem) // prints item containing book
   
 [Index](#Index)
   
-findIndex
+findIndex  
 ------
 **.findIndex()**  
-**Array.prototype.findIndex()**
+**Array.prototype.findIndex()**  
     12. Find and delete the comment with the ID of 823423  
 ```
 const index = comments.findIndex(comment => {
@@ -440,9 +440,9 @@ const newItems = [
   
 [Index](#Index)
   
-forEach
+forEach  
 ------
-**.forEach()**
+**.forEach()**  
 ```
 const items = ["item1", "item2", "item3"]
 
@@ -469,9 +469,9 @@ items.forEach((item) => {
    
 [Index](#Index)
    
-includes
+includes  
 ------
-**.includes()**
+**.includes()**  
 ```
 const items{
     {name: "bike", price: 100}
@@ -489,10 +489,9 @@ const includesTwo = items.includes(7)
   
 [Index](#Index)
   
-Object
-------
-**Object.values()_Object.keys()_Object.entries()**
-**Object.values(), Object.keys(), Object.entries()**
+Object  
+------ 
+**Object.values(), Object.keys(), Object.entries()**  
 ```
 var myEntry = {0: "a", 1: "b", 2: "c", 3: "d", 4: "e", 5: "f"}
 
