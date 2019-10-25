@@ -523,8 +523,8 @@ y = 5
   
 |Symbol| Operation          | Formula     |  Y    |   X     |Explanation  |
 |:----:|:------------------:|:-----------:|:-----:|:-------:|:-----------:|
-| +    | Addition           | x = y + 2   | y = 5 |  x = 7  |             |
-| -    |Subtraction         | x = y - 2   | y = 5 |  x = 3  |             |
+| +    | Addition           | x = y + 2   | y = 5 | x = 7   |             |
+| -    |Subtraction         | x = y - 2   | y = 5 | x = 3   |             |
 | *    |Multiplication      | x = y * 2   | y = 5 | x = 10  |             |
 | /    |Division            | x = y / 2   | y = 5 | x = 2.5 |             |
 | %    |Modulus             | x = y % 2   | y = 5 | x = 1   |5/2 = 2 with |
@@ -536,6 +536,18 @@ y = 5
   
 
 #### Assignment_Operators  
+x = 10, y = 5  
+  
+|Symbol| Formula     | Same As |  Formula  |   X     |Explanation  |
+|:----:|:-----------:|:-------:|:---------:|:-------:|:-----------:|
+| =    | x = y       | Same As | x = y     | x = 5   |             |
+| +=   | x = y - 2   | Same As | x = x + y | x = 15  |             |
+| -=   | x = y * 2   | Same As | x = x - y | x = 5   |             |
+| *=   | x = y / 2   | Same As | x = x * y | x = 50  |             |
+| /=   | x = y % 2   | Same As | x = x / y | x = 2   |             |
+| %=   | x % = y     | Same As | x = x % y | x = 0   |No remainder |
+
+
 
 #### String_Operators  
 
