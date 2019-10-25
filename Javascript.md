@@ -2,18 +2,18 @@ Javascript Information
 ======  
   
 Index
-[Useful_Array_Functions](#Useful_Array_Functions_and_How_They_Work)
-    1. [.filter()](#.filter())
-    2. [.map()](#.map())
-    3. [.sort()](#.sort())
-    4. [.reduce()](#.reduce())
-    5. [.some()](#.some())
-    6. [.every()](#.every())
-    7. [.find()](#.find())
-    8. [.findIndex()](#.findIndex())
-    9. [.forEach()](#.forEach())
-    10. [.includes()](#.includes())
-    11. [Object.values()_Object.keys()_Object.entries()](#Object.values()_Object.keys()_Object.entries())
+[Useful_Array_Functions](#Useful_Array_Functions_and_How_They_Work)  
+    1. [.filter()](#.filter())  
+    2. [.map()](#.map())  
+    3. [.sort()](#.sort())  
+    4. [.reduce()](#.reduce())  
+    5. [.some()](#.some())  
+    6. [.every()](#.every())  
+    7. [.find()](#.find())  
+    8. [.findIndex()](#.findIndex())  
+    9. [.forEach()](#.forEach())  
+    10. [.includes()](#.includes())  
+    11. [Object.values()_Object.keys()_Object.entries()](#Object.values()_Object.keys()_Object.entries())  
   
   
   
