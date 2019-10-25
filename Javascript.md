@@ -188,6 +188,8 @@ console.log(alpha)
   
 [Index](#Index)
   
+reduce
+------
 **.reduce()**
 **Array.prototype.reduce()**  
     6. How many years did all the inventors live?  
@@ -282,6 +284,8 @@ const de = links
   
 [Index](#Index)
   
+some
+------
 **Some and Every Checks**
 **.some()**  
 **Array.prototype.some()**  
@@ -324,6 +328,8 @@ console.log(inexpensiveItems) // would return true as there is at least one item
   
 [Index](#Index)
   
+every
+------
 **.every()**  
 **Array.prototype.every()**   
     10. Is everyone 19 or older?   
@@ -351,6 +357,8 @@ console.log(allOfAge)
   
 [Index](#Index)
   
+find
+------
 **.find()**  
 **Array.prototype.find()**
     11. Find is like filter, but instead returns just the one you are looking for. Find the comment with the ID of 823423  
@@ -380,6 +388,8 @@ console.log(foundItem) // prints item containing book
   
 [Index](#Index)
   
+findIndex
+------
 **.findIndex()**  
 **Array.prototype.findIndex()**
     12. Find and delete the comment with the ID of 823423  
@@ -430,6 +440,8 @@ const newItems = [
   
 [Index](#Index)
   
+forEach
+------
 **.forEach()**
 ```
 const items = ["item1", "item2", "item3"]
@@ -457,6 +469,8 @@ items.forEach((item) => {
    
 [Index](#Index)
    
+includes
+------
 **.includes()**
 ```
 const items{
@@ -475,6 +489,8 @@ const includesTwo = items.includes(7)
   
 [Index](#Index)
   
+Object
+------
 **Object.values()_Object.keys()_Object.entries()**
 **Object.values(), Object.keys(), Object.entries()**
 ```
