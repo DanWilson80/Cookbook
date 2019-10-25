@@ -14,8 +14,9 @@ Index
     8. [.findIndex()](#findIndex)  
     9. [.forEach()](#forEach)  
     10. [.includes()](#includes)  
-    11. [Object.values()_Object.keys()_Object.entries()](#Object)  
-  
+    11. [Object.values() Object.keys() Object.entries()](#Object)  
+[JS Operators](#Operators)
+    1. [Arithmetic Operators](#Arithmetic_Operators)
   
   
 Useful_Array_Functions_and_How_They_Work
@@ -503,3 +504,7 @@ console.log(Object.entries(myEntry)); // will log the entries [["0","a"]["1","b"
 ```
 [Index](#Index)  
   
+Operators
+------
+#### Arithmetic_Operators
+
