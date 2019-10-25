@@ -15,6 +15,8 @@ Index
     9. [.forEach()](#forEach)  
     10. [.includes()](#includes)  
     11. [Object.values() Object.keys() Object.entries()](#Object)  
+    
+    
 [JS Operators](#Operators)  
     1. [Arithmetic Operators](#Arithmetic_Operators)  
     2. [Assignment Operators](#Assignment_Operators)  
@@ -516,7 +518,9 @@ console.log(Object.entries(myEntry)); // will log the entries [["0","a"]["1","b"
 Operators
 ------
 #### Arithmetic_Operators  
-y = 5
+y = 5  
+  
+  
 |Symbol| Operation          | Formula |  Y  |   X   |Explanation|
 |:----:|:------------------:|:-------:|:---:|:-----:|:---------:|
 | +    | Addition           | x=y+2   | y=5 |  x=7  |           |
