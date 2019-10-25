@@ -2,141 +2,23 @@ Javascript Information
 ======  
   
 Index
-[Useful_Array_Functions](#Useful_Array_Functions)
+[Useful_Array_Functions](#Useful_Array_Functions_and_How_They_Work)
+    1. [.filter()](#.filter())
+    2. [.map()](#.map())
+    3. [.sort()](#.sort())
+    4. [.reduce()](#.reduce())
+    5. [.some()](#.some())
+    6. [.every()](#.every())
+    7. [.find()](#.find())
+    8. [.findIndex()](#.findIndex())
+    9. [.forEach()](#.forEach())
+    10. [.includes()](#.includes())
+    11. [Object.values()_Object.keys()_Object.entries()](#Object.values()_Object.keys()_Object.entries())
   
   
   
-Useful_Array_Functions
+Useful_Array_Functions_and_How_They_Work
 ------
-**.forEach**
-```
-const items = ["item1", "item2", "item3"]
-
-const copy = [] // an empty array
-items.forEach((item) => {
-    copy.push(item) // pushes each item into the new array
-  });
-  
-  
-const items{
-    {name: "bike", price: 100}
-    {name: "tv", price: 200}
-    {name: "album", price: 10}
-    {name: "book", price: 5}
-    {name: "phone", price: 500}
-    {name: "computer", price: 1000}
-    {name: "keyboard", price: 25}
-  }
-  
-items.forEach((item) => {
-    console.log(item.name)
-  }); // will loop over every item in the array and return the name from each one and print it to the console
-```
-  
-**.some()**
-```
-const numbers = [12, 5, 8, 1, 14];
-
-const overTen = numbers.some((number) => {
-    return number > 10
-  });
-console.log(overTen) // will return true. This is a boolean and if one answer is true then the function returns true.
-
-const items{
-    {name: "bike", price: 100}
-    {name: "tv", price: 200}
-    {name: "album", price: 10}
-    {name: "book", price: 5}
-    {name: "phone", price: 500}
-    {name: "computer", price: 1000}
-    {name: "keyboard", price: 25}
-  }
-  
-const inexpensiveItems = items.some((item) => {
-    return item.price <= 100
-  });
-console.log(inexpensiveItems) // would return true as there is at least one item under 100.
-```
-  
-**.every()**
-```
-.every() works exactly like .some() except it returns true if every value meets the criteria.
-```
-  
-**.find()**
-```
-const items{
-    {name: "bike", price: 100}
-    {name: "tv", price: 200}
-    {name: "album", price: 10}
-    {name: "book", price: 5}
-    {name: "phone", price: 500}
-    {name: "computer", price: 1000}
-    {name: "keyboard", price: 25}
-  }
-  
-const foundItem = items.find((item) => {
-    return item.name === "book"
-  });
-console.log(foundItem) // prints item containing book
-```
-  
-**.includes()**
-```
-const items{
-    {name: "bike", price: 100}
-    {name: "tv", price: 200}
-    {name: "album", price: 10}
-    {name: "book", price: 5}
-    {name: "phone", price: 500}
-    {name: "computer", price: 1000}
-    {name: "keyboard", price: 25}
-  }
-  
-const includesTwo = items.includes(7)
-  console.log(includesTwo); // this method takes an argument and loks for it in the array and returns a boolean. In this case it will return false.  
-```
-  
-**.findIndex()**
-```
-const items{
-    {name: "bike", price: 100}
-    {name: "tv", price: 200}
-    {name: "album", price: 10}
-    {name: "book", price: 5}
-    {name: "phone", price: 500}
-    {name: "computer", price: 1000}
-    {name: "keyboard", price: 25}
-  }
-  
-const findId = items.findIndex((item) => {
-    return item.name === "book"
-   });
-console.log(findId) // will return the Id of the book item
-
-items.splice(findId, 1) // removes that Id from the items array
-
-OR we can create a new array and preserve the old one (best practice)
-
-const newItems = [
-  ...items.slice(0, findId),
-  ...items.slice(findId, +1)
-  ]; // this slices either side of the array and joins it back together without the itemId
-```
-  
-**Object.values(), Object.keys(), Object.entries**
-```
-var myEntry = {0: "a", 1: "b", 2: "c", 3: "d", 4: "e", 5: "f"}
-
-console.log(Object.keys(myEntry)); // will log the keys ["0", "1", "2", "3", "4", "5"]
-
-console.log(Object.values(myEntry)); // will log the values ["a", "b", "c", "d", "e", "f"]
-
-console.log(Object.entries(myEntry)); // will log the entries [["0","a"]["1","b"]["2","c"]["3","d"]["4","e"]["5","f"]]
-```
-  
-Different Array Methods and How They Work
-======
 
 ```
 const inventors = [
@@ -157,7 +39,10 @@ const inventors = [
 const people = ['Beck, Glenn', 'Becker, Carl', 'Beckett, Samuel', 'Beddoes, Mick', 'Beecher, Henry', 'Beethoven, Ludwig', 'Begin, Menachem', 'Belloc, Hilaire', 'Bellow, Saul', 'Benchley, Robert', 'Benenson, Peter', 'Ben-Gurion, David', 'Benjamin, Walter', 'Benn, Tony', 'Bennington, Chester', 'Benson, Leana', 'Bent, Silas', 'Bentsen, Lloyd', 'Berger, Ric', 'Bergman, Ingmar', 'Berio, Luciano', 'Berle, Milton', 'Berlin, Irving', 'Berne, Eric', 'Bernhard, Sandra', 'Berra, Yogi', 'Berry, Halle', 'Berry, Wendell', 'Bethea, Erin', 'Bevan, Aneurin', 'Bevel, Ken', 'Biden, Joseph', 'Bierce, Ambrose', 'Biko, Steve', 'Billings, Josh', 'Biondo, Frank', 'Birrell, Augustine', 'Black, Elk', 'Blair, Robert', 'Blair, Tony', 'Blake, William'];
 ```
   
-* **Array.prototype.filter()**  
+[Index](#Index)
+  
+**.filter()**  
+**Array.prototype.filter()**  
     1. Filter the list of inventors for those who were born in the 1500's  
 ```
 const fifteen = inventors.filter(function (inventor) {
@@ -173,9 +58,8 @@ Can refactor the function to an ES6 arrow function, remove the if statement and 
 ```
 const fifteen = inventors.filter(inventor => (inventor.year >= 1500 && inventor.year < 1600))
 console.table(fifteen);
-```  
+```    
   
-**.filter()**
 ```
 const words = ["spray", "limit", "elite", "exuberant", "destruction", "present", "happy"];
 
@@ -200,7 +84,10 @@ const filteredItems = items.filter(item => {
   //returns all items <100
 ```
   
-* **Array.prototype.map()**  
+[Index](#Index)
+  
+**.map()**    
+**Array.prototype.map()**  
     2. Give us an array of the inventors' first and last names  
 ```
 const names = inventors.map(inventor => (inventor.first + "" + inventor.last))
@@ -211,7 +98,6 @@ const names = inventors.map(inventor => `${inventor.first} ${inventor.last}`)
 console.log(names);
 ```  
   
-**.map()**
 ```
 var numbers = [1, 4, 9];
 
@@ -239,7 +125,10 @@ const itemPrices = items.map(item => {
  }); // returns a list of all prices from the array
 ```
   
-* **Array.prototype.sort()**  
+[Index](#Index)
+  
+**.sort()**    
+**Array.prototype.sort()**  
     3. Sort the inventors by birthdate, oldest to youngest  
     Sort works by allowing you to compare two items - so the following example will jump through the array comparing people by birth year 2 people at a time. We presented the results in a table using console.table  
 ```
@@ -255,9 +144,45 @@ const ordered = inventors.sort(function(firstPerson, secondPerson){
 const ordered = inventors.sort((a, b) => a.year > b.year ? 1 : -1);
 console.table(ordered);
 ```  
+      
+    4. Sort the inventors by years lived   
+```
+const livedOrder = inventors.sort(function (a, b) {
+const lastGuy = a.passed - a.year;
+const nextGuy = b.passed - b.year;
+   if (lastGuy > nextGuy) {
+    return 1;
+   } else {
+      return -1;
+   }
+});
+console.table(livedOrder);
+```
+```
+const oldest = inventors.sort((a, b) => {
+  const lastGuy = a.passed - a.year;
+  const nextGuy = b.passed - b.year;
+  return lastGuy > nextGuy ? -1 : 1;
+});
+console.table(oldest);
+```  
   
-* **Array.prototype.reduce()**  
-    4. How many years did all the inventors live?  
+  
+    5. sort Exercise - Sort the people alphabetically by last name      
+```
+const alpha = people.sort((lastOne, nextOne) => {
+  const [aLast, aFirst] = lastOne.split(', ');
+  const [bLast, bFirst] = lastOne.split(', ');
+  return aLast > bLast ? -1 : 1;
+});
+console.log(alpha)
+``` 
+  
+[Index](#Index)
+  
+**.reduce()**
+**Array.prototype.reduce()**  
+    6. How many years did all the inventors live?  
 ```
 const totalYears = inventors.reduce((total, inventor) => {
     return total + (inventor.passed - inventor.year);
@@ -266,7 +191,6 @@ console.table(inventors);
 console.log(totalYears);
 ```  
   
-**.reduce()**
 ```
 const numbers = [0, 1, 2, 3, 4];
 
@@ -303,51 +227,7 @@ const total = items.reduce((currentTotal, item) => {
 console.log(total) // will return 1840
 ```
   
-* **.sort**    
-    5. Sort the inventors by years lived   
-```
-const livedOrder = inventors.sort(function (a, b) {
-const lastGuy = a.passed - a.year;
-const nextGuy = b.passed - b.year;
-   if (lastGuy > nextGuy) {
-    return 1;
-   } else {
-      return -1;
-   }
-});
-console.table(livedOrder);
-```
-```
-const oldest = inventors.sort((a, b) => {
-  const lastGuy = a.passed - a.year;
-  const nextGuy = b.passed - b.year;
-  return lastGuy > nextGuy ? -1 : 1;
-});
-console.table(oldest);
-```  
-* **.map and .filter**  
-    6. create a list of Boulevards in Paris that contain 'de' anywhere in the name    
-    
-https://en.wikipedia.org/wiki/Category:Boulevards_in_Paris  
-```
-const category = document.querySelector(".mw-category");
-const links = Array.from(category.querySelectorAll('a'));
-const de = links
-    .map(link => link.textContent)
-    .filter(streetName => streetName.includes('de'));
-```  
-* **.sort**  
-    7. sort Exercise - Sort the people alphabetically by last name      
-```
-const alpha = people.sort((lastOne, nextOne) => {
-  const [aLast, aFirst] = lastOne.split(', ');
-  const [bLast, bFirst] = lastOne.split(', ');
-  return aLast > bLast ? -1 : 1;
-});
-console.log(alpha)
-```  
-* **.reduce**  
-    8. Reduce Exercise - Sum up the instances of each of these  
+    7. Reduce Exercise - Sum up the instances of each of these  
 ```
 const data = ['car', 'car', 'truck', 'truck', 'bike', 'walk', 'car', 'van', 'bike', 'walk', 'car', 'van', 'car', 'truck'];
 
@@ -377,8 +257,26 @@ const comments = [
    { text: 'Nice Nice Nice!', id: 542328 }
 ];
 ```  
-* **Some and Every Checks**  
-* **Array.prototype.some()**  
+  
+[Index](#Index)
+  
+**.map() and .filter()**  
+    8. create a list of Boulevards in Paris that contain 'de' anywhere in the name    
+    
+https://en.wikipedia.org/wiki/Category:Boulevards_in_Paris  
+```
+const category = document.querySelector(".mw-category");
+const links = Array.from(category.querySelectorAll('a'));
+const de = links
+    .map(link => link.textContent)
+    .filter(streetName => streetName.includes('de'));
+```  
+  
+[Index](#Index)
+  
+**Some and Every Checks**
+**.some()**  
+**Array.prototype.some()**  
     9.Is at least one person 19 or older?  
 ```    
 const isAdult = people.some(person => {
@@ -391,7 +289,35 @@ console.log({ isAdult });
 const isAdult = people.some(person => ((new Date()).getFullYear()) - person.year >= 19)
 console.log({ isAdult });
 ```
-* **Array.prototype.every()**   
+  
+```
+const numbers = [12, 5, 8, 1, 14];
+
+const overTen = numbers.some((number) => {
+    return number > 10
+  });
+console.log(overTen) // will return true. This is a boolean and if one answer is true then the function returns true.
+
+const items{
+    {name: "bike", price: 100}
+    {name: "tv", price: 200}
+    {name: "album", price: 10}
+    {name: "book", price: 5}
+    {name: "phone", price: 500}
+    {name: "computer", price: 1000}
+    {name: "keyboard", price: 25}
+  }
+  
+const inexpensiveItems = items.some((item) => {
+    return item.price <= 100
+  });
+console.log(inexpensiveItems) // would return true as there is at least one item under 100.
+```
+  
+[Index](#Index)
+  
+**.every()**  
+**Array.prototype.every()**   
     10. Is everyone 19 or older?   
 ```    
 const allAdults = people.every(person => {
@@ -410,7 +336,15 @@ const allOfAge = people.every((person) => {
 });
 console.log(allOfAge)
 ```
-* **Array.prototype.find()**
+
+```
+.every() works exactly like .some() except it returns true if every value meets the criteria.
+```
+  
+[Index](#Index)
+  
+**.find()**  
+**Array.prototype.find()**
     11. Find is like filter, but instead returns just the one you are looking for. Find the comment with the ID of 823423  
 ```
 const findId = comments.find(comment => {
@@ -418,7 +352,28 @@ const findId = comments.find(comment => {
 })
 console.log(findId)
 ```
-* **Array.prototype.findIndex()**
+  
+```
+const items{
+    {name: "bike", price: 100}
+    {name: "tv", price: 200}
+    {name: "album", price: 10}
+    {name: "book", price: 5}
+    {name: "phone", price: 500}
+    {name: "computer", price: 1000}
+    {name: "keyboard", price: 25}
+  }
+  
+const foundItem = items.find((item) => {
+    return item.name === "book"
+  });
+console.log(foundItem) // prints item containing book
+```
+  
+[Index](#Index)
+  
+**.findIndex()**  
+**Array.prototype.findIndex()**
     12. Find and delete the comment with the ID of 823423  
 ```
 const index = comments.findIndex(comment => {
@@ -439,4 +394,89 @@ const newComments = [
 console.table(newComments);  
 ```  
   
+```
+const items{
+    {name: "bike", price: 100}
+    {name: "tv", price: 200}
+    {name: "album", price: 10}
+    {name: "book", price: 5}
+    {name: "phone", price: 500}
+    {name: "computer", price: 1000}
+    {name: "keyboard", price: 25}
+  }
+  
+const findId = items.findIndex((item) => {
+    return item.name === "book"
+   });
+console.log(findId) // will return the Id of the book item
+
+items.splice(findId, 1) // removes that Id from the items array
+
+OR we can create a new array and preserve the old one (best practice)
+
+const newItems = [
+  ...items.slice(0, findId),
+  ...items.slice(findId, +1)
+  ]; // this slices either side of the array and joins it back together without the itemId
+```
+  
+[Index](#Index)
+  
+**.forEach()**
+```
+const items = ["item1", "item2", "item3"]
+
+const copy = [] // an empty array
+items.forEach((item) => {
+    copy.push(item) // pushes each item into the new array
+  });
+  
+  
+const items{
+    {name: "bike", price: 100}
+    {name: "tv", price: 200}
+    {name: "album", price: 10}
+    {name: "book", price: 5}
+    {name: "phone", price: 500}
+    {name: "computer", price: 1000}
+    {name: "keyboard", price: 25}
+  }
+  
+items.forEach((item) => {
+    console.log(item.name)
+  }); // will loop over every item in the array and return the name from each one and print it to the console
+```
+   
+[Index](#Index)
+   
+**.includes()**
+```
+const items{
+    {name: "bike", price: 100}
+    {name: "tv", price: 200}
+    {name: "album", price: 10}
+    {name: "book", price: 5}
+    {name: "phone", price: 500}
+    {name: "computer", price: 1000}
+    {name: "keyboard", price: 25}
+  }
+  
+const includesTwo = items.includes(7)
+  console.log(includesTwo); // this method takes an argument and loks for it in the array and returns a boolean. In this case it will return false.  
+```
+  
+[Index](#Index)
+  
+**Object.values()_Object.keys()_Object.entries()**
+**Object.values(), Object.keys(), Object.entries()**
+```
+var myEntry = {0: "a", 1: "b", 2: "c", 3: "d", 4: "e", 5: "f"}
+
+console.log(Object.keys(myEntry)); // will log the keys ["0", "1", "2", "3", "4", "5"]
+
+console.log(Object.values(myEntry)); // will log the values ["a", "b", "c", "d", "e", "f"]
+
+console.log(Object.entries(myEntry)); // will log the entries [["0","a"]["1","b"]["2","c"]["3","d"]["4","e"]["5","f"]]
+```
+[Index](#Index)  
   
