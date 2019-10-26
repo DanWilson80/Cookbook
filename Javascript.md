@@ -3,6 +3,7 @@ Javascript Information
   
 Index
 ------
+[JS Useful Tips](#JS_Useful_Tips)  
 [Useful_Array_Functions](#Useful_Array_Functions_and_How_They_Work)  
     1. [.filter()](#filter)  
     2. [.map()](#map)  
@@ -29,8 +30,29 @@ Index
     9. [The Type Of Operator](#The_Type_Of_Operator)  
     10. [The In Operator](#The_In_Operator)  
     
-  
-  
+JS_Useful_Tips
+------
+* **Use MDN for Documentation**  
+* **Create things and pracice**  
+* **All about DOM Manipulation and Events**  
+* **To Debug - Open Console. Sources ⮕ is page. Down tree to JS file it will open in preview window and you can set breakpoints on individual lines**  
+* **Build your own view engine from scratch with JS creating elements:**  
+```
+let my-element = document.createElement('h1');
+let my-span = document.createElement('span');
+
+my-span.innerText = "You mother";
+my-element.appendChild(my-span);
+my-element.classList.add('class name');
+document.body.appendChild(my-element);
+// created elements and injected into page after creation
+```
+ * **Search creating and triggering events on MDN**  
+ * **Build HTML Elements in JS. Bind them to the DOM and remove them from the DOM**  
+ * **Add + Remove Attributes**  
+ * **Add + Remove React to events**  
+ * **Low level stuff to understand how React etc actually works**  
+     
 Useful_Array_Functions_and_How_They_Work
 ------
 
