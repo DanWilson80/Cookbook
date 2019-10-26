@@ -643,4 +643,25 @@ var cars = ["saab", "volvo", "bmw"]
 **Returns true if the specified property is in the specified object otherwise false**  
   
 **Arrays**  
-var cars = ["saab", "volvo", "bmw"
+var cars = ["saab", "volvo", "bmw"]  
+
+"Saab"in cars     // Returns false (specifiy index number instead of a value)
+0 in cars         // Returns true
+1 in cars         // Returns true
+4 in cars         // Returns false (does not exist)
+'length' in cars  // Returns true (length is an array property)
+
+**Objects**  
+var person = {firstName: "John", lastName: "Doe", age: 50}  
+  
+'firstName' in person // Returns true
+'age' in person       // Returns true  
+  
+**Predefined Objects**  
+'Pi' in Math          // Returns true
+'NaN' in Number       // Returns true
+'length' in String    // Returns true  
+  
+[Index](#Index)  
+  
+
