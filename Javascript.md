@@ -547,10 +547,16 @@ x = 10, y = 5
 | /=   | x = y % 2   | Same As | x = x / y | x = 2   |             |
 | %=   | x % = y     | Same As | x = x % y | x = 0   |No remainder |
 
-
-
+  
 #### String_Operators  
-
+text1 = "Good", text2 = "Morning", text3 = ""  
+  
+|Symbol|String                 | text1          | text2     | text3          |
+|:----:|:---------------------:|:--------------:|:---------:|:--------------:|
+|  +   | text3 = text1 + text2 | "Good"         | "Morning" | "Good Morning" |
+|  +=  | text1 += text2        | "Good Morning" | "Morning" | " "            |  
+  
+   
 #### Comparison_Operators  
 
 #### Conditional_Operator(Ternary)  
