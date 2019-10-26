@@ -26,7 +26,8 @@ Index
     6. [Logical Operators](#Logical_Operators)  
     7. [The Delete Operator](#THe_Delete_Operator)    
     8. [The Instance Of Operator](#The_Instance_Of_Operator)  
-    9. [The Type Of Operator](#The_Type_Of_Operator)
+    9. [The Type Of Operator](#The_Type_Of_Operator)  
+    10. [The In Operator](#The_In_Operator)  
     
   
   
@@ -547,6 +548,7 @@ x = 10, y = 5
 | /=   | x = y % 2   | Same As | x = x / y | x = 2   |             |
 | %=   | x % = y     | Same As | x = x % y | x = 0   |No remainder |
 
+[Index](#Index)
   
 #### String_Operators  
 text1 = "Good", text2 = "Morning", text3 = ""  
@@ -556,15 +558,89 @@ text1 = "Good", text2 = "Morning", text3 = ""
 |  +   | text3 = text1 + text2 | "Good"         | "Morning" | "Good Morning" |
 |  +=  | text1 += text2        | "Good Morning" | "Morning" | " "            |  
   
+[Index](#Index)
    
 #### Comparison_Operators  
-
+x = 5    
+  
+|Symbol| Operation           | Formula   |Boolean|
+|:----:|:-------------------:|:---------:|:-----:|
+| ==   | Equal to            | x == 5    | true  |
+| ==   | Equal to            | x == 8    |false  |
+| ===  |Equal value & type   | x === 5   | true  |
+| ===  |Equal value & type   | x === "5" |false  |
+| !=   | Not equal           | x != 8    | true  |
+| !==  |Not eual value& type | x !== 5   |false  |
+| !==  |Not eual value& type | x !== "5" | true  |
+| >    |Greater than         | x > 8     | false |
+| <    |Less than            | x < 8     | true  |
+| >=   |Greater than equal to| x >= 8    | false |
+| <=   |Less than equal to   | x <= 8    | true  |  
+  
+[Index](#Index)  
+  
 #### Conditional_Operator(Ternary)  
-
+  
+variable = (condition) ? value1 : value2
+*example voteable = (age18) ? too young : old enough*  
+  
 #### Logical_Operators  
-
+x = 6, y = 3  
+  
+|Symbol|Definition  | Equation           | Boolean  |
+|:----:|:----------:|:------------------:|:--------:|
+|  &&  | AND        | (x < 10 && y > 1)  | is true  |
+|  ||  | OR         | (x === 5 || y === 5| is false |
+|  !   | NOT        | !(x === y)         | is true  |  
+  
+[Index](#Index)  
+  
 #### The_Delete_Operator  
-
+  
+var person = {firstName: "John", lastName: "Doe", age: "50", eyes: "blue"}
+delete person.age;  OR  delete person[age]  
+  
+[Index](#Index)    
+  
 #### The_Instance_Of_Operator  
-
+var cars = ["saab", "volvo", "bmw"]  
+  
+|Symbol|Definition         | Returns       |
+|:----:|:-----------------:|:-------------:|
+| cars | instanceof Array  | returns true  |
+| cars | instanceof Object | returns true  |
+| cars | instanceof String | returns false |
+| cars | instanceof Number | returns false |  
+  
+[Index](#Index)  
+  
 #### The_Type_of_Operator  
+**Returns the type of a variable, object, function, expression**  
+  
+| Type of                        | Returns                                      |
+|:------------------------------:|:--------------------------------------------:|
+| typeof "John"                  | Returns string                               |
+| typeof 3.14                    | Returns number                               |
+| typeof NaN                     | Returns number                               |
+| typeof false                   | Returns boolean                              |
+| typeof [1, 2, 3, 4]            | Returns object                               |
+| typeof {name: "John", age: 34} | Returns object                               |
+| typeof new Date()              | Returns object                               |
+| typeof function(){}            | Returns function                             |
+| typeof myCar                   | Returns undefined(if my car is not declared) |
+| typeof null                    | Returns object                               |
+  
+**The data type of the following are:**  
+**NaN = number**  
+**Array = object**  
+**Date = object**  
+**null = object**  
+**undefined variable = undefined**  
+  
+[Index](#Index)    
+  
+#### The_In_Operator  
+**Returns true if the specified property is in the specified object otherwise false**  
+  
+**Arrays**  
+var cars = ["saab", "volvo", "bmw"
