@@ -52,6 +52,8 @@ document.body.appendChild(my-element);
  * **Add + Remove Attributes**  
  * **Add + Remove React to events**  
  * **Low level stuff to understand how React etc actually works**  
+   
+[Index](#Index)   
      
 Useful_Array_Functions_and_How_They_Work
 ------
