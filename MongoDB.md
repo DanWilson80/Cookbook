@@ -3,9 +3,9 @@ MongoDB
   
 Index
 ------
-[MongoDB Terminal Commands](#MongoDB\ Terminal\ Commands)
+[MongoDB Terminal Commands](#MongoDB_Terminal_Commands)
 
-MongoDB Terminal Commands
+MongoDB_Terminal_Commands
 ------
 
 * **show dbs** - shows all DB's  
