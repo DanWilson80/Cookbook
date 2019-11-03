@@ -29,6 +29,9 @@ Index
     8. [The Instance Of Operator](#The_Instance_Of_Operator)  
     9. [The Type Of Operator](#The_Type_Of_Operator)  
     10. [The In Operator](#The_In_Operator)  
+      
+[When Not To Use ; In JS](#When_Not_To_Use_Semi_Colon_in_JS)  
+    
     
 JS_Useful_Tips
 ------
@@ -688,4 +691,15 @@ var person = {firstName: "John", lastName: "Doe", age: 50}
   
 [Index](#Index)  
   
-
+When_Not_To_Use_Semi_Colon_in_JS
+------
+  
+* **.equals() in Mongoose/MongoDB**  
+  * **Official docs**  
+  * **SO thread** 
+* **cURL examples** 
+* **.update() with $set in MongoDB**  
+  
+[Index](#Index)  
+  
+  
